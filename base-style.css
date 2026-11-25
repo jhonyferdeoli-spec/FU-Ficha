@@ -1,6 +1,11 @@
 :root {
     --fundo: #d0ffaa;
     --fundo-cont: #adf57d;
+    --fundo-bar: #616161;
+    --fundo-bar-vida: #ff5b5b;
+    --fundo-bar-mana: #5bd9ff;
+    --fundo-bar-inve: #ffe65b;
+    
 }
 
 body {

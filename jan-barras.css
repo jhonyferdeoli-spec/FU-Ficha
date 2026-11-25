@@ -1,0 +1,26 @@
+.barra-vazia{
+    background: gray;
+    height: 40px;
+    max-width: 1290px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.barra-cheia{
+    background: var(--cor-barra);
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.inve{
+    --cor-barra: var(--fundo-bar-inve);
+}
+
+.vida{
+    --cor-barra: var(--fundo-bar-vida);
+}
+
+.mana{
+    --cor-barra: var(--fundo-bar-mana);
+}

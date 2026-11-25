@@ -1,6 +1,19 @@
+.cont-barra{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.cont-barra button{
+    flex-shrink: 0;
+    height: 100%;
+    width: 40px;
+}
+
 .barra-vazia{
     background: gray;
-    height: 40px;
+    flex: 1;
+    height: 100%;
     max-width: 1290px;
     border-radius: 10px;
     overflow: hidden;

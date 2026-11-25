@@ -1,0 +1,9 @@
+:root {
+    --fundo: #d0ffaa;
+    --fundo-cont: #adf57d;
+}
+
+body {
+    background: var(--fundo);
+}
+

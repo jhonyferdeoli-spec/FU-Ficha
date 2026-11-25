@@ -1,6 +1,6 @@
 .container {
     padding: 10px;
-    background: #a8e25c;
+    background: var(--fundo-cont);
     margin: 10px;
 }
 

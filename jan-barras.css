@@ -1,6 +1,6 @@
 .cont-barra{
-    display: flex;
     align-items: center;
+    display: flex;
     height: 40px;
 }
 
@@ -12,18 +12,19 @@
 
 .barra-vazia{
     background: gray;
+    border-radius: 10px;
     flex: 1;
     height: 100%;
     max-width: 1290px;
-    border-radius: 10px;
     overflow: hidden;
+    position:relative;
 }
 
 .barra-cheia{
     background: var(--cor-barra);
+    border-radius: 10px;
     height: 100%;
     width: 90%;
-    border-radius: 10px;
 }
 
 .inve{
@@ -36,4 +37,12 @@
 
 .mana{
     --cor-barra: var(--fundo-bar-mana);
+}
+
+.stat-ui{
+    align-items: center;
+    display: flex;
+    inset: 0;
+    justify-content: center;
+    position: absolute; 
 }

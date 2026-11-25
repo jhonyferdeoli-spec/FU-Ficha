@@ -6,8 +6,8 @@
 
 .cont-barra button{
     flex-shrink: 0;
-    height: 100%;
-    width: 40px;
+    height: inherit;
+    width: 32px;
 }
 
 .barra-vazia{

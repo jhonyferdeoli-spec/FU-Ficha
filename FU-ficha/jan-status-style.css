@@ -1,3 +1,16 @@
 .container {
-    background: #000000;
+    padding: 10px;
+    background: #a8e25c;
+    margin: 10px;
+}
+
+.atrib-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.atrib-box {
+    padding: 10px;
+    background: lightgrey;
 }

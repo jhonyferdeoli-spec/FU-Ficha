@@ -1,0 +1,4 @@
+
+let vidaAtual;
+let vidaMax;
+
